@@ -112,6 +112,15 @@ The analysis included:
 - Correlation analysis
 - Visualization of important patterns
 
+### Delivery Time Distribution
+
+![Delivery Time Distribution](images/delivery_time_distribution.png)
+
+### Correlation Analysis
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+
 ---
 
 ## 📊 Statistical Testing
@@ -200,6 +209,10 @@ Tukey's HSD post-hoc testing was used to identify the specific weather groups co
 - Snowy conditions showed particularly higher delivery times compared with most other weather conditions.
 - Rainy conditions also showed higher delivery times compared with clear weather.
 
+![Statistical Testing Results](images/statistical_testing1.png)
+
+![Statistical Testing Results](images/statistical_testing2.png)
+
 ## ⚙️ Feature Engineering & Preprocessing
 
 Categorical variables were converted into numerical features using **One-Hot Encoding**.
@@ -247,7 +260,11 @@ The model explains approximately **83.23% of the variation in delivery time**.
 The MAE of **6.06 minutes** means that, on average, the model's predicted delivery time differs from the actual delivery time by approximately 6 minutes.
 
 The MAPE of **10.62%** indicates that the model's average prediction error is around 10.6%.
----
+### Actual vs Predicted Delivery Time
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+### Residual Plot
+![Residual Plot](images/Residual Plot.png)
 
 ---
 
