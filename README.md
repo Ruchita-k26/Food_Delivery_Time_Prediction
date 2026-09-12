@@ -264,7 +264,7 @@ The MAPE of **10.62%** indicates that the model's average prediction error is ar
 ![Actual vs Predicted](images/actual_vs_predicted.png)
 
 ### Residual Plot
-![Residual Plot](images/Residual Plot.png)
+![Residual_Plot](images/Residual Plot.png)
 
 ---
 
